@@ -726,12 +726,7 @@ nav a:hover {
    align-items: flex-start;
    justify-content: space-between;
 }
-.contact-sec .right > div span{
-   color: tomato;
-   font-weight: var(--fw300);
-   font-size: var(--fs-p);
-   display: none;
-}
+
 .contact-sec .right > div label{
    color: var(--text-color2);
    font-size: var(--fs-p);
