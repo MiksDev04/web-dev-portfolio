@@ -483,19 +483,20 @@ nav a:hover {
 }
 
 .hightlight-project .img-container {
-   background-image: url("./images/active.png");
-}
-
-.project1 .img-container {
    background-image: url("./images/complete.png");
 }
 
+.project1 .img-container {
+   background-image: url("./images/active.png");
+}
+
 .project2 .img-container {
-   background-image: url("./images/desktop.png");
+   background-position: top;
+   background-image: url("./images/desktop-active.png");
 }
 
 .project3 .img-container {
-   background-image: url("./images/desktop2.png");
+   background-image: url("./images/desktop.png");
 }
 
 .projects-sec .hightlight-project a {
@@ -743,6 +744,7 @@ nav a:hover {
    outline: 2px solid var(--accent);
 }
 .contact-sec #message{
+   resize: none;
    width: 100%;
    min-height: 100px;
    padding: .5rem;
