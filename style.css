@@ -107,7 +107,8 @@ nav a {
    font-weight: var(--fw400);
 }
 
-nav a:hover {
+nav a:hover,
+nav a.active {
    color: var(--accent);
    transform: scale(1.2);
 }
@@ -126,7 +127,8 @@ nav a:hover {
    width: 1.5rem;
 }
 
-.main-heading .contact:hover {
+.main-heading .contact:hover,
+.main-heading .contact.active {
    transform: scale(1.2);
    filter: drop-shadow(1px 1px 5px var(--text-color));
 }
@@ -846,7 +848,8 @@ footer h5{
       font-weight: var(--fw700);
       font-size: var(--fs-h2);
    }
-   .side-bar-section a:hover{
+   .side-bar-section a:hover,
+   .side-bar-section a.active {
       color: var(--accent);
       background-color: var(--text-color2);
    }
